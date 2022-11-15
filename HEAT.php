@@ -9,4 +9,10 @@
 
     <title> HEAT STOCK SCANNER </title>
 <body>
+<fieldset>
+    <label>
+        HEAT.net <input type="text" name="search" placeholder="search">
+        <button>Submit</button>
+    </label>
+</fieldset>
 
