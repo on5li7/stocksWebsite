@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <link rel = "stylesheet"
-          href = "index-style.css">
+          href = "heatstyle.css">
 
     <title> HEAT STOCK SCANNER </title>
 <body>
@@ -24,6 +24,7 @@
     <a href="#">Screener</a>
     <a href="#">Settings</a>
 </div>
+//commit comment
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 
