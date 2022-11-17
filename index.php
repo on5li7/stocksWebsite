@@ -55,6 +55,7 @@ $quoteDisplay = array_rand($quoteArray);?>
         But with a stock <br> screener, you have an advantage because all information is updated as soon as it’s <br>available.</p>
 </div>
 
+
 </body>
 </html>
 

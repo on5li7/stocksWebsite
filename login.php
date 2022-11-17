@@ -35,7 +35,7 @@
     <a href="createAccount.php">Create an Account!</a>
     <br>
     <br>
-    <button type="submit">Log In</button>
+    <button type="submit" onclick="location.href='index.php'">Log In</button>
 </fieldset>
 </div>
 
