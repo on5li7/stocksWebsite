@@ -12,7 +12,6 @@ fieldset {
 
 body {
     color: lightgrey;
-    background-image: url("light.png");
     background-image: url("thisBlue1.png");
 }
 
@@ -35,9 +34,9 @@ body {
      height: 80px;
      position: absolute;
      top: 34%;
-     left: 0%;
+     left: 0;
      margin-left: 30px;
-     margin-top: 0px;
+     margin-top: 0;
      font-size: 25px;
  }
 
