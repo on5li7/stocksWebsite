@@ -23,7 +23,7 @@ $quoteDisplay = array_rand($quoteArray);?>
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="login.php">Log in</a>
-    <a href="#">Home</a>
+    <a href="index.php">Home</a>
     <a href="#">News</a>
     <a href="#">Screener</a>
     <a href="#">Settings</a>

@@ -12,7 +12,7 @@
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="login.php">Log in</a>
-    <a href="#">Home</a>
+    <a href="index.php">Home</a>
     <a href="#">News</a>
     <a href="#">Screener</a>
     <a href="#">Settings</a>
@@ -32,7 +32,7 @@
     <a href="">Forgot Password?</a>
     <br>
     <br>
-    <button type="submit">Log In</button>
+    <button type="submit" onclick="location.href='index.php'">Log In</button>
 </fieldset>
 </div>
 </body>
