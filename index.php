@@ -61,10 +61,11 @@ $quoteDisplay = array_rand($quoteArray);?>
     <p>Stock Market Heatmap</p></div>
 
 <div class = "heatMapText">
-<p>Finviz is one of the best stock market maps. This image is a link to the heatmap Finviz provides. It allows you to view, search, and<br>
-    analyze market data for free in a map or bubble format. It lets you see how a <br>
-    certain market, like the S&P 500, performs. You can look at all markets in a given <br>
-    country or a worldview of global markets.</p>
+<p>Finviz is one of the best stock market maps. This image is a link to the heatmap <br>
+    Finviz provides. It allows you to view, search, and analyze market data for free <br>
+    in a map or bubble format. It lets you see how a certain market, like the S&P 500, <br>
+    performs. You can look at all markets in a given country or a worldview of global <br>
+    markets.</p>
 </div>
 
 <a href="https://finviz.com/published_map.ashx?t=sec&st=&f=111722&i=sec_144876206">
