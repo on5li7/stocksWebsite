@@ -46,6 +46,8 @@ $quoteDisplay = array_rand($quoteArray);?>
 <img src="thumb.png" alt="bull" class = "floatRight">
 <img src="heatIntro.png" alt="introPic" class = "floatLeft">
 
+
+
 <div class = "textBold">
     <p>Benefits Of Our Stock Screener</p> </div>
 
@@ -55,6 +57,19 @@ $quoteDisplay = array_rand($quoteArray);?>
         But with a stock <br> screener, you have an advantage because all information is updated as soon as it’s <br>available.</p>
 </div>
 
+<div class = "floatUnderRightText">
+    <p>Stock Market Heatmap</p></div>
+
+<div class = "heatMapText">
+<p>Finviz is one of the best stock market maps. This image is a link to the heatmap Finviz provides. It allows you to view, search, and<br>
+    analyze market data for free in a map or bubble format. It lets you see how a <br>
+    certain market, like the S&P 500, performs. You can look at all markets in a given <br>
+    country or a worldview of global markets.</p>
+</div>
+
+<a href="https://finviz.com/published_map.ashx?t=sec&st=&f=111722&i=sec_144876206">
+    <img src="heatmap.png" alt="HEATMAP" class = "floatUnderRight" style = margin-top: "50px">
+</a>
 
 </body>
 </html>
