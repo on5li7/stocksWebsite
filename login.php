@@ -19,18 +19,21 @@
 </div>
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
-
+<div class = "loginFieldSet">
 <fieldset>
     <h1>Log In to HEAT.NET</h1>
     <label>
-        <input type="text" name="username" placeholder="Enter Username">
-        <input type="text" name="password" placeholder="Enter Password">
+        <input type="text" name="username" placeholder="Enter Username"> </label>
+    <br>
+    <br>
+       <label> <input type="text" name="password" placeholder="Enter Password">
     </label>
     <br>
     <a href="">Forgot Password?</a>
     <br>
-    <button type="submit">LOG IN</button>
+    <br>
+    <button type="submit">Log In</button>
 </fieldset>
-
+</div>
 </body>
 </html>

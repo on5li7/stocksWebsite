@@ -56,6 +56,11 @@ body {
     font-size: 20px;
 }
 
+.loginFieldSet{
+    position: absolute;
+    top: 30%;
+}
+
 .sidepanel {
     height: 250px; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
