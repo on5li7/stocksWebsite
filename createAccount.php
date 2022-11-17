@@ -34,7 +34,7 @@
         </label>
         <br>
         <br>
-        <button type="submit">Create Account</button>
+        <button type="submit" onclick="location.href='login.php'">Create Account</button>
     </fieldset>
 </div>
 
