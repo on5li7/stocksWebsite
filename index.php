@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel = "stylesheet" href = "heatstyle.css">
+    <link rel = "stylesheet" href = "heatStyle.css">
     <script type="text/javascript" src="heat.js"></script>
 
     <title> HEAT STOCK SCANNER </title>
@@ -20,7 +20,7 @@ $quoteDisplay = array_rand($quoteArray);?>
 </p>
 
 
-<div id="mySidepanel" class="sidepanel">
+<div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="login.php">Log in</a>
     <a href="#">Home</a>
