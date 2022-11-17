@@ -11,7 +11,7 @@ fieldset {
 }
 
 body {
-    color: white;
+    color: lightgrey;
     background-image: url("light.png");
     background-color: navy;
 }
@@ -22,18 +22,39 @@ body {
     margin-left:20px;
 }
 
+.floatLeft{
+    position: relative;
+    float:left;
+    margin-top: 400px;
+    /*margin-left:20px;*/
+}
+
 
  .quote span {
-     width: 300px;
-     height: 100px;
+     width: 450px;
+     height: 80px;
      position: absolute;
-     top: 35%;
+     top: 33%;
      left: 0%;
      margin-left: 30px;
      margin-top: 0px;
      font-size: 25px;
  }
 
+.textBold{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    font-size: 35px;
+     font-weight: bolder;
+ }
+
+.textBenefits{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    font-size: 20px;
+}
 
 .sidepanel {
     height: 250px; /* Specify a height */

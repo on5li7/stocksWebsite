@@ -44,7 +44,16 @@ $quoteDisplay = array_rand($quoteArray);?>
 
 
 <img src="thumb.png" alt="bull" class = "floatRight">
+<img src="heatIntro.png" alt="introPic" class = "floatLeft">
 
+<div class = "textBold">
+    <p>Benefits Of Our Stock Screener</p> </div>
+
+<div class = "textBenefits">
+    <p>First and foremost, it saves you time, especially if you invest in smaller companies.<br>
+        Sometimes finding information on these stocks is difficult.
+        But with a stock <br> screener, you have an advantage because all information is updated as soon as it’s <br>available.</p>
+</div>
 
 
 </body>
