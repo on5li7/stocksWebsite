@@ -23,8 +23,8 @@ $quoteDisplay = array_rand($quoteArray);?>
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="login.php">Log in</a>
-    <a href="#">Home</a>
-    <a href="#">News</a>
+    <a href="index.php">Home</a>
+    <a href="news.php">News</a>
     <a href="#">Screener</a>
     <a href="#">Settings</a>
 </div>
@@ -54,7 +54,6 @@ $quoteDisplay = array_rand($quoteArray);?>
         Sometimes finding information on these stocks is difficult.
         But with a stock <br> screener, you have an advantage because all information is updated as soon as it’s <br>available.</p>
 </div>
-
 
 </body>
 </html>

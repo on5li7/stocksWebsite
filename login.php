@@ -12,8 +12,8 @@
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="login.php">Log in</a>
-    <a href="#">Home</a>
-    <a href="#">News</a>
+    <a href="index.php">Home</a>
+    <a href="news.php">News</a>
     <a href="#">Screener</a>
     <a href="#">Settings</a>
 </div>
@@ -29,11 +29,17 @@
        <label> <input type="text" name="password" placeholder="Enter Password">
     </label>
     <br>
+    <br>
     <a href="">Forgot Password?</a>
+    <br>
+    <a href="createAccount.php">Create an Account!</a>
     <br>
     <br>
     <button type="submit">Log In</button>
 </fieldset>
 </div>
+
+
+
 </body>
 </html>

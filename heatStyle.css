@@ -60,6 +60,11 @@ body {
     top: 30%;
 }
 
+.createFieldSet{
+    position: absolute;
+    top: 30%;
+}
+
 .sidePanel {
     height: 250px; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -110,3 +115,4 @@ body {
 .openbtn:hover {
     background-color: black;
 }
+
