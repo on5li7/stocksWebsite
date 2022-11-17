@@ -1,5 +1,3 @@
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,18 +5,9 @@
     <link rel = "stylesheet" href = "heatstyle.css">
     <script type="text/javascript" src="heat.js"></script>
 
-    <title> HEAT STOCK SCANNER </title>
+    <title> HEAT STOCK LOG IN</title>
 <body>
-<h1>HEAT.NET STOCK SCREENER</h1>
-
-
-<p class = "quote">
-<?php
-$quoteArray = file("quotes");
-$quoteDisplay = array_rand($quoteArray);?>
-<span><?php echo $quoteArray[$quoteDisplay];?></span>
-</p>
-
+<h1>HEAT.NET LOG IN</h1>
 
 <div id="mySidepanel" class="sidepanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -31,23 +20,17 @@ $quoteDisplay = array_rand($quoteArray);?>
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 
-<br>
-<br>
-
 <fieldset>
+    <h1>Log In to HEAT.NET</h1>
     <label>
-        Search Ticker: <br>
-        <input type="text" name="search" placeholder="search">
-        <button>Submit</button>
+        <input type="text" name="username" placeholder="Enter Username">
+        <input type="text" name="password" placeholder="Enter Password">
     </label>
+    <br>
+    <a href="">Forgot Password?</a>
+    <br>
+    <button type="submit">LOG IN</button>
 </fieldset>
-
-
-<img src="thumb.png" alt="bull" class = "floatRight">
-
-
 
 </body>
 </html>
-
-
