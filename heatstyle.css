@@ -1,3 +1,40 @@
+h1{
+    text-align: center;
+}
+
+fieldset {
+    text-align: center;
+    margin-left: 770px;
+    min-width: 0;
+    max-width: 100%;
+    width: 300px;
+}
+
+body {
+    color: white;
+    background-image: url("light.png");
+    background-color: navy;
+}
+
+.floatRight{
+    position: relative;
+    float:right;
+    margin-left:20px;
+}
+
+
+ .quote span {
+     width: 300px;
+     height: 100px;
+     position: absolute;
+     top: 35%;
+     left: 0%;
+     margin-left: 30px;
+     margin-top: 0px;
+     font-size: 25px;
+ }
+
+
 .sidepanel {
     height: 250px; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -16,7 +53,7 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: gray;
+    color: white;
     display: block;
     transition: 0.3s;
 }
@@ -48,4 +85,3 @@
 .openbtn:hover {
     background-color: gray;
 }
-/*commit comment*/
