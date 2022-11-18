@@ -55,24 +55,24 @@ body {
     font-size: 20px;
 }
 
- .quote span {
-     width: 450px;
-     height: 80px;
-     position: absolute;
-     top: 34%;
-     left: 0;
-     margin-left: 30px;
-     margin-top: 0;
-     font-size: 25px;
- }
+.quote span {
+    width: 450px;
+    height: 80px;
+    position: absolute;
+    top: 34%;
+    left: 0;
+    margin-left: 30px;
+    margin-top: 0;
+    font-size: 25px;
+}
 
 .textBold{
     position: absolute;
     top: 85%;
     left: 30%;
     font-size: 35px;
-     font-weight: bolder;
- }
+    font-weight: bolder;
+}
 
 .textBenefits{
     position: absolute;
@@ -141,5 +141,3 @@ body {
 .openbtn:hover {
     background-color: lightskyblue;
 }
-
-
