@@ -141,3 +141,34 @@ body {
 .openbtn:hover {
     background-color: lightskyblue;
 }
+/* For news tab. However, the styling will change*/
+table {
+    width: 100%;
+    overflow-y:scroll;
+    height:600px;
+    display:block;
+
+}
+td {
+    border: solid black 1px;
+    padding: 5px;
+    font-size: 12px;
+}
+table.menu {
+    width: auto;
+    margin-right: 0px;
+    margin-left: auto;
+
+}
+
+
+.newstable a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.newstable a:visited{
+    color: white;
+}
+.newstable a:hover{
+    color: black;
+}
