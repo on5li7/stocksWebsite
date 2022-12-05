@@ -25,7 +25,7 @@ $quoteDisplay = array_rand($quoteArray);?>
     <a href="login.php">Log in</a>
     <a href="index.php">Home</a>
     <a href="news.php">News</a>
-    <a href="#">Screener</a>
+    <a href="screener.php">Screener</a>
     <a href="#">Settings</a>
 </div>
 
