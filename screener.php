@@ -1,15 +1,13 @@
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel = "stylesheet" href = "heatStyle.css">
+    <link rel = "stylesheet" href = "heatStyle.css?v=<?php echo time(); ?>">
     <script type="text/javascript" src="heat.js"></script>
 
-    <title> HEAT STOCK SCREENER </title>
+    <title> NEWS </title>
 <body>
-<h1>HEAT.NET STOCK SCREENER FILTER</h1>
+<h1>HEAT.NET NEWS</h1>
 
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
