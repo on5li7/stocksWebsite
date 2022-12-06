@@ -20,6 +20,7 @@
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 
+
 <?php
 $key = "NZV999OQVDUJ6N1W";
 $url = "https://www.alphavantage.co/query?function=NEWS_SENTIMENT&topics=financial_markets, technology, ipo, earnings, finance&sort=LATEST&apikey=".$key;
@@ -32,6 +33,7 @@ $result=json_decode($result, true);
 echo '<pre>';
 $entries = $result["items"];
 ?>
+
 <div class="newstable">
 <table>
     <tr>
