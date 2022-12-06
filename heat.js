@@ -7,9 +7,3 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidepanel").style.width = "0";
 }
-
-function myFunction() {
-    let element = document.body;
-    element.classList.toggle("dark-mode");
-    element.classList.toggle("default");
-}
