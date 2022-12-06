@@ -14,7 +14,7 @@
     <a href="index.php">Home</a>
     <a href="news.php">News</a>
     <a href="screener.php">Screener</a>
-    <a href="#">Settings</a>
+    <a href="settings.php">Settings</a>
 </div>
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     else {
         $name = test_input($_POST["name"]);
         if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-            $nameErr = "Only letters and white space allowed";
+            $nameErr = "Name must only have letters and white space";
             echo $nameErr;
             exit();
         }
