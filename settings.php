@@ -20,5 +20,41 @@
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .dark-mode {
+            background-image: url("ThisBlack.png");
+            color: white;
+        }
 
-<p>Click the button to toggle between the default and light mode for this page.</p>
+        .normal-mode {
+            background-image: url("thisBlue1.png");
+            color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Toggle Dark/Light Mode</h2>
+<p>Click the button to toggle between dark and light mode for this page.</p>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+<button onclick = "newFunction()">Toggle normal</button>
+
+<script>
+    function myFunction() {
+        let element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+
+    function newFunction(){
+        let element = document.body;
+        element.classList.toggle("normal-mode");
+    }
+</script>
+
+</body>
+</html>

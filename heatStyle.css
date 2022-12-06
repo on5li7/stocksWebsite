@@ -9,11 +9,11 @@ fieldset {
     max-width: 100%;
     width: 300px;
 }
-
 body {
     color: lightgrey;
     background-image: url("thisBlue1.png");
 }
+
 
 .floatRight{
     position: relative;
@@ -172,4 +172,6 @@ table.menu {
 .newstable a:hover{
     color: black;
 }
+
+
 
