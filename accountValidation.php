@@ -63,18 +63,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (strlen($password) < 8) {
             $passwordErr = "Password must be at least 8 characters";
             echo $passwordErr;
+            echo "<br>\n";
         }
         if (!preg_match('@[A-Z]@', $password)) {
             $passwordErr = "Password must have at least one uppercase letter";
             echo $passwordErr;
+            echo "<br>\n";
         }
         if (!preg_match('@[0-9]@', $password)) {
             $passwordErr = "Password must have at least one number";
             echo $passwordErr;
+            echo "<br>\n";
         }
         if (!preg_match('@[a-z]@', $password)) {
             $passwordErr = "Password must have at least one lowercase letter";
             echo $passwordErr;
+        }
+        else {
+            echo "Your account has been created! Welcome $username. You may log in now.";
         }
     }
 }
