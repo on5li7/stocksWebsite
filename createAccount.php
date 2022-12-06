@@ -21,20 +21,22 @@
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 <div class = "createFieldSet">
     <fieldset>
+        <form method="POST" action="accountValidation.php">
         <h1>Create an Account</h1>
         <label>
-            <input type="text" name="name" placeholder="Enter Full Name"> </label>
+            <input type="text" name="name" placeholder="Enter Full Name" value="name"> </label>
         <label>
             <br>
             <br>
-            <input type="text" name="username" placeholder="Enter Username"> </label>
+            <input type="text" name="username" placeholder="Enter Username" value="username"> </label>
         <br>
         <br>
-        <label> <input type="text" name="password" placeholder="Enter Password">
+        <label> <input type="text" name="password" placeholder="Enter Password" value="password">
         </label>
         <br>
         <br>
-        <button type="submit" onclick="location.href='login.php'">Create Account</button>
+        <button type="submit" value="Submit">Create Account</button>
+        </form>
     </fieldset>
 </div>
 
