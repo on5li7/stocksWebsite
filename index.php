@@ -26,7 +26,7 @@ $quoteDisplay = array_rand($quoteArray);?>
     <a href="index.php">Home</a>
     <a href="news.php">News</a>
     <a href="screener.php">Screener</a>
-    <a href="#">Settings</a>
+    <a href="settings.php">Settings</a>
 </div>
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>

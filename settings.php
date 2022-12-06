@@ -19,3 +19,6 @@
 </div>
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
+
+
+<p>Click the button to toggle between the default and light mode for this page.</p>
