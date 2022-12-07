@@ -79,7 +79,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $passwordErr = "Password must have at least one lowercase letter";
             echo $passwordErr;
         }
-        else {
+        if (strlen($password) >= 8 && preg_match('@[A-Z]@',$password) && preg_match('@[0-9]@',$password)
+            && preg_match('@[a-z]@',$password)) {
             echo "Your account has been created! Welcome $username. You may log in now.";
         }
     }
