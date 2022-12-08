@@ -15,6 +15,7 @@ echo '<pre>';
 
 <?php
 
+
 $dataPoints = array();
 for($i = 0; $i < $size; $i++){
     $phpDate = date($result['historical'][$i]['date']);
@@ -25,12 +26,13 @@ for($i = 0; $i < $size; $i++){
 
 ?>
 
-
-
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en"; style = "background-image: url('thisBlue1.png');">
 <head>
     <title> Graph </title>
+        <p style = "position: center; font-size: 30px; color: lightgray";>
+            Drag on the area you want to zoom into on the graph and refresh to zoom all the way back out.
+            In the top right if you just want to drag between dates you can select the drag tool and do so.</p>
     <script>
         window.onload = function() {
             let data = <?php echo json_encode($dataPoints) ?>;
@@ -63,5 +65,6 @@ for($i = 0; $i < $size; $i++){
 <body>
 <div id="chartContainer"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
 </body>
 </html>
