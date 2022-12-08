@@ -7,7 +7,6 @@
 
     <title> HEAT STOCK ACCOUNT CREATION</title>
 <body>
-<h1> CREATE AN ACCOUNT </h1>
 
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -18,9 +17,9 @@
 </div>
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
-<div class = "createFieldSet">
-    <fieldset>
+
         <form method="POST" action="accountValidation.php">
+            <div class="loginform">
         <h1>Create an Account</h1>
         <label>
             <input type="text" name="name" placeholder="Enter Full Name" value="name"> </label>
@@ -35,9 +34,8 @@
         <br>
         <br>
         <button type="submit" value="Submit">Create Account</button>
+            </div>
         </form>
-    </fieldset>
-</div>
 
 </body>
 </html>
