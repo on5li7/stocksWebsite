@@ -153,9 +153,8 @@ function curl_method($url)
 
     $result = json_decode($result, true);
     $size = count($result);
-//    echo '<pre>';
 
-    if (isset($_GET['search']) and strlen($_GET['search']) != 0){
+    if (isset($_GET['search']) and strlen($_GET['search']) !== 0){
         display_data($size,$result, 'volAvg', 'mktCap');
     }
     else{
