@@ -28,60 +28,60 @@ $nameErr = $usernameErr = $passwordErr = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
-        $nameErr = "Name is required";
+        $nameErr = "<p class='error'> Name is required</p>";
         echo $nameErr;
         exit();
     }
     else {
         $name = test_input($_POST["name"]);
         if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-            $nameErr = "Name must only have letters and white space";
+            $nameErr = "<p class='error'>Name must only have letters and white space</p>";
             echo $nameErr;
             exit();
         }
     }
     if (empty($_POST["username"])) {
-        $usernameErr = "Username is required";
+        $usernameErr = "<p class='error'>Username is required</p>";
         echo $usernameErr;
         exit();
     }
     else {
         $username = test_input($_POST["username"]);
         if (!preg_match('/^\w{5,10}$/', $username)) {
-            $usernameErr = "Username must be alphanumeric and between a length of 5 and 10";
+            $usernameErr = "<p class='error'>Username must be alphanumeric and between a length of 5 and 10</p>";
             echo $nameErr;
             exit();
         }
     }
     if (empty($_POST["password"])) {
-        $passwordErr = "Password is required";
+        $passwordErr = "<p class='error'>Password is required</p>";
         echo $nameErr;
         exit();
     }
     else {
         $password = test_input($_POST["password"]);
         if (strlen($password) < 8) {
-            $passwordErr = "Password must be at least 8 characters";
+            $passwordErr = "<p class='error'>Password must be at least 8 characters</p>";
             echo $passwordErr;
             echo "<br>\n";
         }
         if (!preg_match('@[A-Z]@', $password)) {
-            $passwordErr = "Password must have at least one uppercase letter";
+            $passwordErr = "<p class='error'>Password must have at least one uppercase letter</p>";
             echo $passwordErr;
             echo "<br>\n";
         }
         if (!preg_match('@[0-9]@', $password)) {
-            $passwordErr = "Password must have at least one number";
+            $passwordErr = "<p class='error'>Password must have at least one number</p>";
             echo $passwordErr;
             echo "<br>\n";
         }
         if (!preg_match('@[a-z]@', $password)) {
-            $passwordErr = "Password must have at least one lowercase letter";
+            $passwordErr = "<p class='error'>Password must have at least one lowercase letter</p>";
             echo $passwordErr;
         }
         if (strlen($password) >= 8 && preg_match('@[A-Z]@',$password) && preg_match('@[0-9]@',$password)
             && preg_match('@[a-z]@',$password)) {
-            echo "Your account has been created! Welcome $username. You may log in now.";
+            echo "<p id='accCreate'>Your account has been created! Welcome $username. You may log in now.</p>";
         }
     }
 }
