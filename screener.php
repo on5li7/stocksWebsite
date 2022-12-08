@@ -72,6 +72,7 @@ function display_data($size, $result, $vol, $marcap)
 if (isset($result)){
 
     ?>
+    <div class="stock">
     <table id="customers">
         <tr>
             <th> Ticker </th>
@@ -104,7 +105,7 @@ if (isset($result)){
             ?>
         </tr>
     </table>
-
+        </div>
     <?php
 }
 
