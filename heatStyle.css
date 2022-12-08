@@ -222,3 +222,18 @@ div.stock{
     bottom: 0%;
     margin: 5px;
 }
+
+.chartContainer{
+height: 370px;
+width: 100%;"
+}
+
+
+.ticker a:link {
+    text-decoration: none;
+
+}
+
+.ticker a:hover{
+    color: darkgreen;
+}

@@ -32,7 +32,6 @@
 
 <?php
 $key = "fd3afeaba51db8c6f48b9d41fb27161c";
-
 if (isset($_GET['search']) and strlen($_GET['search']) != 0){
     $url = "https://financialmodelingprep.com/api/v3/profile/" . $_GET['search'] . '?apikey=' . $key;
 }
@@ -69,7 +68,7 @@ function curl_method($url)
 <?php
 function display_data($size, $result, $vol, $marcap)
 {
-if (isset($result)){
+    if (isset($result)){
 
     ?>
     <div class="stock">
@@ -93,7 +92,7 @@ if (isset($result)){
                     $volume = $result[$i][$vol];
                     $cap = $result[$i][$marcap];
 
-                    echo("<td><strong>  $symbol </strong></td>");
+                    echo("<td class='ticker'><strong> <a href='graph.php?ticker=$symbol'> $symbol </a> </strong></td>");
                     echo("<td><strong> $sector </strong></td>");
                     echo("<td><strong> $company </strong></td>");
                     echo("<td><strong> $price </strong></td>");
@@ -108,10 +107,9 @@ if (isset($result)){
         </div>
     <?php
 }
-
-else{
-    echo "something went wrong";
-}
+    else{
+        echo "something went wrong";
+    }
 }
 ?>
 
