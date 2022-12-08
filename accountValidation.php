@@ -7,7 +7,7 @@
 
     <title> HEAT STOCK ACCOUNT VALIDATION</title>
 <body>
-<h1>HEAT.NET ACCOUNT VALIDATION</h1>
+<h1>ACCOUNT VALIDATION</h1>
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="login.php">Log in</a>

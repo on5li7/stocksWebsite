@@ -7,7 +7,7 @@
 
     <title> Screener </title>
 <body>
-<h1>Heat Screener</h1>
+<h1> Screener </h1>
 
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>

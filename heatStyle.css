@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    color: #2D3261;
 }
 
 fieldset {
@@ -16,8 +17,6 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    overflow: hidden;
-/*    Overflow might stay or go*/
 }
 
 
@@ -236,4 +235,11 @@ width: 100%;"
 
 .ticker a:hover{
     color: darkgreen;
+}
+
+h1.service{
+    color: #2D3261;
+    font-family: lustria;
+    font-size: 250%;
+    alignment: center;
 }

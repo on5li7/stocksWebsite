@@ -9,7 +9,7 @@
 
     <title> HEAT STOCK SCANNER </title>
 <body>
-<h1>HEAT.NET STOCK SCREENER</h1>
+<h1 class="service"> HEAT-NET </h1>
 
 
 <p class = "quote">
@@ -45,7 +45,6 @@ $quoteDisplay = array_rand($quoteArray);?>
 
 <img src="thumb.png" alt="bull" class = "floatRight">
 <img src="heatIntro.png" alt="introPic" class = "floatLeft">
-
 
 
 <div class = "textBold">

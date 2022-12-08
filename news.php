@@ -7,7 +7,7 @@
 
     <title> NEWS </title>
 <body>
-<h1>HEAT.NET NEWS</h1>
+<h1> NEWS </h1>
 
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>

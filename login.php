@@ -7,7 +7,7 @@
 
     <title> HEAT STOCK LOG IN</title>
 <body>
-<h1>HEAT.NET LOG IN</h1>
+<h1> LOG IN </h1>
 
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
