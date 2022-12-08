@@ -23,8 +23,8 @@
 
 <div class="searchcontainer">
 <form name="form" action="" method="get">
-        <label>
-            <input type="text" name="search" placeholder="Search Ticker                         &#x1F50E" class="searchbox">
+        <label for="search">
+            <input type="text" id="search" name="search" placeholder="Search Ticker                         &#x1F50E" class="searchbox">
             <br>
             <button class="searchbutton">submit</button>
         </label>
