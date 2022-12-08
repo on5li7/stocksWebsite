@@ -243,3 +243,42 @@ h1.service{
     font-size: 250%;
     alignment: center;
 }
+
+
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 15px 25px;
+    display: inline-block;
+    border: 0.5px solid #ccc;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 12pt;
+    font-family: lustria;
+}
+
+.loginbutton{
+    background-color: #E07B7B;
+    color: whitesmoke;
+    font-size: 15pt;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    font-family: lustria;
+}
+
+div.loginform {
+    padding: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1.loginheading{
+    font-size: 250%;
+    font-family: lustria;
+}
+
+a.acc{
+    color: whitesmoke;
+    font-family: lustria;
+}
