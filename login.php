@@ -18,28 +18,21 @@
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 
-<div class="createFieldSet">
-    <fieldset>
 <form action="/index.php" method="post">
     <div class="loginform">
         <h1 class="loginheading">Log In</h1>
         <label>
             <input type="text" name="username" placeholder="USERNAME"> </label>
         <br>
-        <br>
            <label> <input type="text" name="password" placeholder="PASSWORD">
         </label>
         <br>
-        <br>
         <button type="submit" class="loginbutton"> LOG IN </button>
-        <br>
         <br>
         <a href="createAccount.php" class="acc">Not registered? Create an Account!</a>
     </div>
 
 </form>
-    </fieldset>
-</div>
 
 </body>
 </html>
