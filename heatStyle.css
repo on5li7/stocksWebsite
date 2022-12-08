@@ -265,6 +265,7 @@ input[type=text], input[type=password] {
     cursor: pointer;
     width: 25%;
     font-family: lustria;
+    border-radius: 0.3cm;
 }
 
 div.loginform {
