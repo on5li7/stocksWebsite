@@ -20,23 +20,6 @@
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .dark-mode {
-            background-image: url("ThisBlack.png");
-            color: white;
-        }
-
-        .normal-mode {
-            background-image: url("thisBlue1.png");
-            color: lightgray;
-        }
-    </style>
-</head>
-<body>
 
 <h2>Toggle Dark/Light Mode</h2>
 <p>Click the button to toggle between dark and light mode for this page.</p>
