@@ -329,3 +329,19 @@ div.searchcontainer{
     padding-right: 1.5px;
 }
 
+select {
+    width:200px;
+    font-size: 25px;
+}
+
+.filbutton{
+    background-color: #E07B7B;
+    color: whitesmoke;
+    font-size: 12pt;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+    font-family: lustria;
+    border-radius: 0.2cm;
+}

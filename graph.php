@@ -20,7 +20,7 @@
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 <?php
-$key = "fd3afeaba51db8c6f48b9d41fb27161c";
+$key = "351008321d00cfb13885a80cb15d293b";
 $url = "https://financialmodelingprep.com/api/v3/historical-price-full/" . $_GET['ticker'] . '?serietype=line' . '&apikey=' . $key;
 
 $ch = curl_init();

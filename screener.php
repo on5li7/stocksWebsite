@@ -30,17 +30,116 @@
 </form>
 </div>
 
-<?php
-$key = "fd3afeaba51db8c6f48b9d41fb27161c";
-if (isset($_GET['search']) and strlen($_GET['search']) != 0){
-    $url = "https://financialmodelingprep.com/api/v3/profile/" . $_GET['search'] . '?apikey=' . $key;
-}
-else{
-    $url = "https://financialmodelingprep.com/api/v3/stock-screener?&betaMoreThan=1&exchange=NASDAQ,NYSE&dividendMoreThan=0&limit=100&country=US&apikey=".$key;
-}
-curl_method($url);
+<form name="filter" action="" method="post">
+    <br>
+    <label for="price">  Price:  </label>
+    <select id="price" name="tickprice">
+        <option value="" disabled selected>Choose option</option>
+        <option value="50"> Less than 50 </option>
+        <option value="200"> Less than 200 </option>
+        <option value="1000"> Less than 1000 </option>
+    </select>
+    <br>
+    <label for="volume">  Volume:  </label>
+    <select id="volume" name="tickvolume">
+        <<option value="" disabled selected>Choose option</option>
+        <option value="100000"> Under 100k </option>
+        <option value="500000"> Under 500k </option>
+        <option value="1000000"> Under 1M </option>
+    </select>
+    <br>
+    <label for="exchange">  Exchange:  </label>
+    <select id="exchange" name="tickexchange">
+        <option value="" disabled selected>Choose option</option>
+        <option value="NASDAQ"> NASDAQ </option>
+        <option value="NYSE"> NYSE </option>
+    </select>
+    <br>
+    <label for="sector">  Sector:  </label>
+    <select id="sector" name="ticksector">
+        <option value="" disabled selected>Choose option</option>
+        <option value="Technology"> Technology </option>
+        <option value="Financial"> Financial </option>
+        <option value="Healthcare"> Healthcare </option>
+    </select>
+    <br>
+    <label for="limit">  Limit:  </label>
+    <select id="limit" name="lim">
+        <option value="" disabled selected>Choose option</option>
+        <option value="5"> 5 </option>
+        <option value="50"> 50 </option>
+        <option value="100"> 100 </option>
+        <option value="200"> 200 </option>
+        <option value="400"> 400 </option>
+        <option value="500"> 500 </option>
+    </select>
+    <br>
+    <button class="filbutton">submit</button>
+</form>
 
+
+<?php
+$key = "351008321d00cfb13885a80cb15d293b";
+$sub = "";
+if(!empty($_POST['tickprice'])){
+    if(strlen($sub) === 0){
+        $sub = '&' . 'priceLowerThan=' . $_POST['tickprice'];
+    }
+    else{
+        $sub = $sub . '&' . 'priceLowerThan=' . $_POST['tickprice'];
+    }
+}
+if(!empty($_POST['tickvolume'])){
+    if(strlen($sub) === 0){
+        $sub = '&' . 'volumeLowerThan=' . $_POST['tickvolume'];
+    }
+    else{
+        $sub = $sub . '&' . 'volumeLowerThan=' . $_POST['tickvolume'];
+    }
+}
+if(!empty($_POST['tickexchange'])){
+    if(strlen($sub) === 0){
+        $sub = '&' . 'exchange=' . $_POST['tickexchange'];
+    }
+    else{
+        $sub = $sub . '&' . 'exchange=' . $_POST['tickexchange'];
+    }
+}
+if(!empty($_POST['ticksector'])){
+    if (strlen($sub) ===0){
+        $sub = '&' . 'sector=' . $_POST['ticksector'];
+    }
+    else{
+        $sub = $sub . '&' . 'sector=' . $_POST['ticksector'];
+    }
+
+}
+if(!empty($_POST['lim'])){
+    if (strlen($sub) ===0){
+        $sub = '&' . 'limit=' . $_POST['lim'];
+    }
+    else{
+        $sub = $sub . '&' . 'limit=' . $_POST['lim'];
+    }
+
+}
+
+if(strlen($sub) === 0) {
+    if (isset($_GET['search']) and strlen($_GET['search']) != 0) {
+        $url = "https://financialmodelingprep.com/api/v3/profile/" . $_GET['search'] . '?apikey=' . $key;
+    } else {
+        $url = "https://financialmodelingprep.com/api/v3/stock-screener?&betaMoreThan=1&exchange=NASDAQ,NYSE&dividendMoreThan=0&country=US&apikey=" . $key;
+    }
+    curl_method($url);
+}
+
+else{
+    $url = "https://financialmodelingprep.com/api/v3/stock-screener?&betaMoreThan=1" . $sub;
+    $url = $url . '&dividendMoreThan=0&country=US' . '&apikey=' . $key;
+    curl_method($url);
+}
 ?>
+
 
 
 <?php
