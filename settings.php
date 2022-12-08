@@ -19,25 +19,3 @@
 </div>
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
-
-
-<h2>Toggle Dark/Light Mode</h2>
-<p>Click the button to toggle between dark and light mode for this page.</p>
-
-<button onclick="myFunction()">Toggle dark mode</button>
-<button onclick = "newFunction()">Toggle normal</button>
-
-<script>
-    function myFunction() {
-        let element = document.body;
-        element.classList.toggle("dark-mode");
-    }
-
-    function newFunction(){
-        let element = document.body;
-        element.classList.toggle("normal-mode");
-    }
-</script>
-
-</body>
-</html>
