@@ -31,7 +31,7 @@
 </form>
 
 <?php
-$key = "351008321d00cfb13885a80cb15d293b";
+$key = "fd3afeaba51db8c6f48b9d41fb27161c";
 
 if (isset($_GET['search']) and strlen($_GET['search']) != 0){
     $url = "https://financialmodelingprep.com/api/v3/profile/" . $_GET['search'] . '?apikey=' . $key;
@@ -81,7 +81,6 @@ if (isset($result)){
             <th> Avg Volume </th>
             <th> Market Cap </th>
         </tr>
-
         <tr>
             <?php
 
