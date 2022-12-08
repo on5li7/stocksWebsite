@@ -34,13 +34,13 @@ $quoteDisplay = array_rand($quoteArray);?>
 <br>
 <br>
 
-<fieldset>
-    <label>
-        Search Ticker: <br>
-        <input type="text" name="search" placeholder="search">
-        <button>Submit</button>
-    </label>
-</fieldset>
+<!--<fieldset>-->
+<!--    <label>-->
+<!--        Search Ticker: <br>-->
+<!--        <input type="text" name="search" placeholder="search">-->
+<!--        <button>Submit</button>-->
+<!--    </label>-->
+<!--</fieldset>-->
 
 
 <img src="thumb.png" alt="bull" class = "floatRight">

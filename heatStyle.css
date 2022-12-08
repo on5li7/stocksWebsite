@@ -17,6 +17,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: #2F303A;
 }
 
 
@@ -240,7 +241,7 @@ width: 100%;"
 h1.service{
     color: #2D3261;
     font-family: lustria;
-    font-size: 250%;
+    font-size: 300%;
     alignment: center;
 }
 
