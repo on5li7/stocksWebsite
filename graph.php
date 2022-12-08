@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "heatStyle.css?v=<?php echo time(); ?>">
+    <script type="text/javascript" src="heat.js"></script>
+
+    <title> Screener </title>
+<body>
+
+    <h1 style = "position: center"> Chart </h1>
+
+<div id="mySidepanel" class="sidePanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="login.php">Log in</a>
+    <a href="index.php">Home</a>
+    <a href="news.php">News</a>
+    <a href="screener.php">Screener</a>
+</div>
+
+<button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 <?php
 $key = "fd3afeaba51db8c6f48b9d41fb27161c";
 $url = "https://financialmodelingprep.com/api/v3/historical-price-full/" . $_GET['ticker'] . '?serietype=line' . '&apikey=' . $key;
