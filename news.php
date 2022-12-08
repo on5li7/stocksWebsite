@@ -45,7 +45,7 @@ news_processing($url);
         <table id="customers">
             <tr>
                 <?php
-                    for($i=1;$i<$entries;$i++) {
+                    for($i=0;$i<$entries;$i++) {
                         $title = $result["feed"][$i]["title"];
                         $news_url = $result["feed"][$i]["url"];
                         echo("<td><strong> <a href=$news_url> $title </a> </strong></td>");

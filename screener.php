@@ -7,8 +7,9 @@
 
     <title> Screener </title>
 <body>
-<h1> SCREENER </h1>
-
+<div class="scre">
+    <h1> SCREENER </h1>
+</div>
 <div id="mySidepanel" class="sidePanel">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="login.php">Log in</a>
@@ -20,15 +21,15 @@
 
 <button class="openbtn" onclick="openNav()">&#9776; Toggle Options</button>
 
+<div class="searchcontainer">
 <form name="form" action="" method="get">
-    <fieldset>
-        <label>
-            Search Ticker: <br>
-            <input type="text" name="search" placeholder="search">
-            <button>Submit</button>
-        </label>
-    </fieldset>
+<!--        <label>-->
+            <input type="text" name="search" placeholder="Search Ticker                         &#x1F50E" class="searchbox">
+            <br>
+            <button class="searchbutton">submit</button>
+<!--        </label>-->
 </form>
+</div>
 
 <?php
 $key = "fd3afeaba51db8c6f48b9d41fb27161c";

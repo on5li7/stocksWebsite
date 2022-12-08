@@ -157,7 +157,8 @@ table {
 td {
     border: solid black 1px;
     padding: 5px;
-    font-size: 12px;
+    font-size: 9.2pt;
+    font-family: lustria;
 }
 table.menu {
     width: auto;
@@ -234,7 +235,7 @@ width: 100%;"
 }
 
 .ticker a:hover{
-    color: darkgreen;
+    color: whitesmoke;
 }
 
 h1.service{
@@ -290,3 +291,42 @@ h1.newsheading{
     font-size: 240%;
     alignment: center;
 }
+
+input.searchbox{
+    width: 85%;
+    font-size: 15pt;
+    font-family: lustria;
+    width: 313px;
+
+}
+
+.searchbutton{
+    background-color: #E07B7B;
+    color: whitesmoke;
+    font-size: 12pt;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    font-family: lustria;
+    border-radius: 0.2cm;
+}
+
+div.scre{
+    float:left;
+    position: absolute;
+    width: 78%;
+    margin-left: 9rem;
+}
+
+div.searchcontainer{
+    width: 22%;
+    float: right;
+    position: relative;
+    margin-right: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+}
+
