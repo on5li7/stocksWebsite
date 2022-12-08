@@ -23,11 +23,11 @@
 
 <div class="searchcontainer">
 <form name="form" action="" method="get">
-<!--        <label>-->
+        <label>
             <input type="text" name="search" placeholder="Search Ticker                         &#x1F50E" class="searchbox">
             <br>
             <button class="searchbutton">submit</button>
-<!--        </label>-->
+        </label>
 </form>
 </div>
 
@@ -55,7 +55,7 @@ function curl_method($url)
 
     $result = json_decode($result, true);
     $size = count($result);
-    echo '<pre>';
+//    echo '<pre>';
 
     if (isset($_GET['search']) and strlen($_GET['search']) != 0){
         display_data($size,$result, 'volAvg', 'mktCap');
