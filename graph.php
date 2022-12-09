@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ; style = "background-image: url('thisBlue1.png');">
 <head>
     <meta charset="utf-8">
     <link rel = "stylesheet" href = "heatStyle.css?v=<?php echo time(); ?>">
     <script type="text/javascript" src="heat.js"></script>
 
     <title> Screener </title>
-<body>
 
     <h1 style = "position: center"> Chart </h1>
 
@@ -46,12 +45,7 @@ for($i = 0; $i < $size; $i++){
 }
 
 ?>
-
-<!DOCTYPE HTML>
-<html lang="en"; style = "background-image: url('thisBlue1.png');">
-<head>
-    <title> Graph </title>
-        <p style = "position: center; font-size: 30px; color: lightgray";>
+        <p style = "position: center; font-size: 30px; color: lightgray" ;>
             Drag on the area you want to zoom into on the graph and refresh to zoom all the way back out.
             In the top right if you just want to drag between dates you can select the drag tool and do so.</p>
     <script>
