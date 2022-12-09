@@ -49,9 +49,9 @@ for($i = 0; $i < $size; $i++){
             Drag on the area you want to zoom into on the graph and refresh to zoom all the way back out.
             In the top right if you just want to drag between dates you can select the drag tool and do so.</p>
     <script>
-        window.onload = function() {
             let data = <?php echo json_encode($dataPoints) ?>;
-            for(let i = 0;i < <?php echo $size?>;i++){
+            window.onload = function() {
+                for(let i = 0;i < <?php echo $size?>;i++){
                 data[i]['x'] = new Date(data[i]['x']);
             }
 
